@@ -10,6 +10,7 @@ export default class Matrix extends mix(Array) {
     super(list2d)
     this[matrixKey] = []
     this.type = 'Matrix'
+    this.isMatrix = true
     this.init(list2d)
   }
 
